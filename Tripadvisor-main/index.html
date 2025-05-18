@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts linking-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <!-- Our project style sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/tripadvisor-logo.png" type="image/png">
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Tripadvisor: Over a billion reviews & contributions for Hotels, Attractions, Restaurants, and more</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="Navbar">
+        <div class="Navbar-section__one">
+            <img src="./images/tripadvisor-logo.png" alt="no image" class="Navbar-section__one_image">  
+            <h1>Tripadvisor</h1>
+        </div>
+        <div class="Navbar-section__two">
+            <p class="Navbar-section__two__heading1">Discover</p>
+            <p class="Navbar-section__two__heading1">Trips</p>
+            <p class="Navbar-section__two__heading1">Review</p>
+            <p class="Navbar-section__two__heading">Forums</p>
+        </div>
+        <div class="Navbar-section__three">
+            <p><i class="fa-solid fa-globe"></i> | INR</p>
+            <button class="Navbar-section__three__button">Sign in</button>
+        </div>
+    </div>
+    <!-- Where to categories -->
+    <div class="category">
+        <div>
+            <P class="category--section">Where to?</p>
+        </div>
+        <div class="category--section__one">
+            <!-- <div class="category--section__one_search">
+                <i class="fa-solid fa-house"></i>
+                <p>Search All</p>
+            </div>   -->
+            <!-- Hidden radio buttons -->
+            <!-- <input type="radio" name="tabs" id="search" checked>
+            <input type="radio" name="tabs" id="hotel">
+            <input type="radio" name="tabs" id="tab3">
+            <input type="radio" name="tabs" id="tab1">
+            <input type="radio" name="tabs" id="tab2">
+            <input type="radio" name="tabs" id="tab3"> -->
+            <p class="category--section__one_search"><i class="fa-solid fa-house"></i> Search All</p>
+            <p class="category--section__one_hotel"><i class="fa-solid fa-bed"></i> Hotels</p>
+            <p><i class="fa-solid fa-camera"></i> Things to Do</p>
+            <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+            <p><i class="fa-solid fa-plane"></i> Flights</p>
+            <p><i class="fa-solid fa-tower-observation"></i> Holiday Homes</p>
+        </div>
+        <div class="category--section__two">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="category--section__two__search" type="text"
+                placeholder="Places to go, things to do, hotels..." id="section1">
+            <input class="category--section__two__hotel" type="text" placeholder="Hotel name or destination"
+                id="section2">
+            <button class="category--section__two__button">Search</button>
+        </div>
+        <!-- <div class="category--section__three">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Hotel name or destination">
+            <button class="category--section__three__button">Submit</button>
+        </div> -->
+        <!-- Advertisement Section -->
+        <div class="Advertisement--section">
+            <img src="./images/image1.jpg" alt="no image">
+            <div class="Advertisement--section__heading">
+                <h1>World's best hotels—chosen by you</h1>
+                <p>From beachside resorts to the most unique stays. See the top 1% of hotels from Travellers Choice Best
+                    of the Best and save your faves.</p>
+                <button class="Advertisement--section__button">Reveal winners</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- Top Hotels Recommendations -->
+    <div class="Recommendations">
+        <h1 class="Recommendations--title">Stay at the world's top hotels</h1>
+        <p class="Recommendations--title__desc">2025's Travellers Choice Awards Best of the Best Hotels</p>
+        <div class="Recommendations--hotels">
+            <div class="hotel--list">
+                <img src="./images/image2.jpg" alt="picture">
+                <p class="Recommendations--section_desc">World</p>
+            </div>
+            <div class="hotel--list">
+                <img src="./images/image3.jpg" alt="picture">
+                <p class="Recommendations--section_desc">Luxury</p>
+            </div>
+            <div class="hotel--list">
+                <img src="./images/image4.jpg" alt="picture">
+                <p class="Recommendations--section_desc">Family-Friendly</p>
+            </div>
+            <div class="hotel--list">
+                <img src="./images/image5.jpg" alt="picture">
+                <p class="Recommendations--section_desc">One of a Kind</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Mumbai tour Recommendations -->
+    <div class="Mumbai--Recommendations">
+        <h1 class="Mumbai--Recommendations--title">Ways to tour Mumbai</h1>
+        <p class="Mumbai--Recommendations--title__desc">Book these experiences for a close-up look at Mumbai. </p>
+        <div class="Mumbai--Recommendations--places">
+            <div class="place--list">
+                <img src="./images/beach.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Bandra Beach</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/sid_temple.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Siddhivinayak Temple</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/temple.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Mahalakshmi Temple</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/caves.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Elephanta Caves & Island Guided Private Tour</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+        </div>
+    </div>
+    <!-- Recently Viewed -->
+    <div class="Recently--Viewed">
+        <h1 class="Recently--Viewed--title">Recently Viewed</h1>
+        <div class="Recently--Viewed--places">
+            <div class="place--list">
+                <img src="./images/rec_view1.jpg" alt="picture">
+                <h3>Andaman And Nicobar Islands</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/rec_view2.jpg" alt="picture">
+                <h3>Ooty</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/rec_view3.jpg" alt="picture">
+                <h3>Wayanad</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/rec_view4.jpg" alt="picture">
+                <h3>chikmagalur</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+        </div>
+    </div>
+    <!-- might like this -->
+    <div class="might--like">
+        <h1 class="might--like--title">You might like these</h1>
+        <p class="might--like--title__desc">More things to do in Mumbai </p>
+        <div class="might--like--places">
+            <div class="place--list">
+                <img src="./images/shopping.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Shopping Market DADAR</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/marine.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Marine Drive Spots</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/water_kingdom.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Water Kingdom</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/sea link.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Bandra Worli Sea link bridge</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- More explore -->
+    <div class="more--explore">
+        <h1 class="more--explore--title">More to explore</h1>
+        <div class="more--explore--places">
+            <div class="place--list">
+                <img src="./images/more1.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Thailand Explorer</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/more2.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Bali Adventures</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/more3.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>Boat House Architect</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+            <div class="place--list">
+                <img src="./images/more4.jpg" alt="picture">
+                <span class="heart">&#9825;</span>
+                <h3>British wood houses tour</h3>
+                <p>4.8 🟢🟢🟢🟢🟢 (68)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- advertisement sec -->
+
+    <div class="wrapper">
+        <div class="card-container">
+            <div class="card-wrap__img">
+                <img src="./images/image_ad.jpg" alt="">
+            </div>
+            <div class="card-sponsored">
+
+                <div class="card-desc">
+                    <img src="./images/tripadvisor-logo.png" alt="no image" class="card-desc__image">
+                    <p class="card-desc_para">Sponsored by <a href="">Wanderlab</a></p>
+                    <h1>Watch The Wanderer</h1>
+                    <p>Tripadvisors award-winning travel series, now streaming on Amazon Prime Video</p>
+                    <button class="learn_btn">Learn More</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Award section -->
+    <div class="awards-container">
+        <div class="awards-card">
+            <div class="awards-illustration">
+                <h1 class="awards-illustration__heading">Travellers' Choice Awards Best of the Best</h1>
+                <p class="awards-illustration__desc">Among our top 1% of places, stays, eats, and experiences—decided by
+                    you.</p>
+                <button class="awards-illustration__btn">See the Winners</button>
+            </div>
+            <div class="awards-img">
+                <img src="./images/image2.jpg" alt="">
+            </div>
+        </div>
+
+
+        <!-- Footer section -->
+        <div class="footer--section">
+            <div class="footer--section__one">
+                <div class="category--one">
+                    <div class="section1">
+                        <h3>About Tripadvisor</h3>
+                        <p>About Us</p>
+                        <p>Press</p>
+                        <p>Resources and policies</p>
+                        <p>careers</p>
+                        <p>Trust & Safety</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="section2">
+                        <h3>Explore</h3>
+                        <p>Write a Review</p>
+                        <p>Add a Place</p>
+                        <p>Join</p>
+                        <p>Travellers' Choice</p>
+                        <p>Help Centre</p>
+                        <p>Travel Stories</p>
+
+                    </div>
+                    <div class="section3">
+                        <h3>Do Business With Us</h3>
+                        <p>Owners & DMO/CVB</p>
+                        <p>Business Advantage</p>
+                        <p>Sponsored Placements</p>
+                        <p>Access our Content API</p>
+
+
+                        <h3 class="category--one__heading">Get the App</h3>
+                        <p>iPhone App</p>
+                        <p>Android App</p>
+                    </div>
+
+
+                </div>
+                <div class="category--two">
+                    <h3>Tripadvisor Sites</h3>
+                    <p>Book tours and attraction tickets on <a href="https://example.com">Viator</a>.</p>
+                </div>
+            </div>
+            <!-- footer section two -->
+            <div class="footer--section__two">
+                <div class="footer--section__two__category1">
+                    <div class="one">
+                        <img src="./images/tripadvisor-logo.png" alt="no image" class="footer--section__one_logo">
+                    </div>
+                    <div class="two">
+                        <p class="copy_rights">© 2025 Tripadvisor LLC All rights reserved.</p>
+                        <div class="copy_rights1">
+                            <p>Terms of Use</p>
+                            <p>Privacy and Cookies Statement</p>
+                            <p>Cookie consent</p>
+                            <p>Site Map</p>
+                            <p>How the site works</p>
+                            <p>Contact us</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="footer--section__two__category2">
+                    <div class="rupees">
+                        <select id="rupees" name="rupees" class="dropdown-toggle">
+                            <option value="india">INR</option>
+                            <option value="usa">Dollar</option>
+                            <option value="Oman">Riyal</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Japanese">Yen</option>
+
+                        </select>
+                    </div>
+                    <div class="country">
+                        <select id="country" name="country" class="dropdown-toggle">
+                            <option value=" india">India</option>
+                            <option value="usa">United States</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Japanese">Japanese</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- footer section three -->
+
+            <div class="footer--section__three">
+                <div class="footer_desc">
+                    <p>This is the version of our website addressed to speakers of English in India. If you are a
+                        resident of another country or region, please select the appropriate version of Tripadvisor for
+                        your country or region in the drop-down menu.
+                    </p>
+
+                </div>
+                <div class="footer_link">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" style="font-size:20px; color:black"></i></a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" style="font-size: 20px; color: black"></i></a>
+                    <a href="https://www.pinterest.com" target="_blank"></a>
+                    <i class="fab fa-pinterest" style="font-size: 20px; color: #000000;"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" style="font-size: 20px; color: #000000;"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"></a>
+                    <i class="fab fa-youtube" style="font-size: 20px; color: #000000;"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank"></a>
+                    <i class="fab fa-tiktok" style="font-size: 20px; color: #000000;"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+</body>
+
+</html>
